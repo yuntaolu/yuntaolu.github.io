@@ -116,30 +116,30 @@ font-weight: bold;
 }
 
 h1, h2, h3 {
-color: #527bbd; /* 修改为Bei Yu页面的蓝色 */
+color: #527bbd; 
 margin-top: 0.7em;
 margin-bottom: 0.3em;
 padding-bottom: 0.2em;
 line-height: 1.0;
 padding-top: 0.5em;
-border-bottom: 1px solid #cccccc; /* 修改为灰色线条 */
+border-bottom: 1px solid #cccccc; 
 }
 
 h1 {
-font-size: 165%;
+font-size: 150%;
 }
 
 h2 {
-padding-top: 0.8em;
+padding-top: 0.6em;
 font-size: 125%;
 }
 
 h2 + h3 {
-padding-top: 0.2em;
+padding-top: 0.1em;
 }
 
 h3 {
-font-size: 110%;
+font-size: 100%;
 border-bottom: none;
 }
 
