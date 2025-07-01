@@ -7,8 +7,57 @@
   <link rel="stylesheet" href="jemdoc.css" type="text/css" />
   <link rel="stylesheet" href="./css/jemdoc.css" type="text/css" />
   <title>Yuntao Lu Homepage</title>
+  <style>
+    .navbar {
+      background-color: #f8f9fa;
+      padding: 15px 0;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .navbar-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    .navbar-brand {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+    .navbar-nav {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 30px;
+    }
+    .navbar-nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .navbar-nav a:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
-<body style="margin: 40px;">
+<body style="margin: 10px;">
+<div class="navbar">
+  <div class="navbar-content">
+    <a href="#" class="navbar-brand">Yuntao Lu</a>
+    <ul class="navbar-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#educations">Educations</a></li>
+    </ul>
+  </div>
+</div>
 <div id="layout-content">
 <table class="imgtable">
   <tr>
@@ -28,9 +77,9 @@
     </td>
   </tr>
 </table>
-<h2>About</h2>
+<h2 id="about">About</h2>
 <p>I am currently a second-year Ph.D. student majoring in Computer Science at <a target="_blank" href="https://www.cuhk.edu.hk/english/">The Chinese University of Hong Kong (CUHK)</a>, supervised by Prof. <a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/index.html">Bei Yu</a> and co-supervised by Prof. <a target="_blank" href="https://www.cse.cuhk.edu.hk/~wei/"> Wei Meng </a> since Fall, 2023. Previously, I received my M.S. at <a target="_black" href="https://www.utexas.edu/"> The University of Texas at Austin (UT-Austin) </a> and <a target="_blank" href="https://en.ustc.edu.cn/">The University of Science and Technology of China (USTC) </a>, and B.Eng. at <a target="_blank" href="https://en.uestc.edu.cn/">The University of Electronic Science and Technology of China (UESTC) </a>. My research interests are Artificial Intelligence for Electronic Design Automation (AI4EDA) and Functional Verification.</p>
-<h2>Publications</h2>
+<h2 id="publications">Publications</h2>
 <ul>
 <li>
   <p> 
@@ -60,7 +109,7 @@
   <a target="_blank" href="https://www.routledge.com/High-PerformanceComputing-for-Big-Data-Methodologies-and-Applications/Wang/p/book/9781498783996">Available here</a>
   </p></li>
 </ul>
-<h2>Experiences</h2>
+<h2 id="experiences">Experiences</h2>
 <ul>
 <li><p>
   Jan. 2022 - Aug. 2023, Machine Learning Engineer,  <br>
@@ -73,7 +122,7 @@
   Projects: Validations and Developments for Optimized AI models and applications on AI-specific chips. 
   </p></li>
 </ul>
-<h2>Educations</h2>
+<h2 id="educations>Educations</h2>
 <ul>
 <li><p>
   Aug. 2023 - Present, Ph.D. Candidate in Computer Science and Engineering <br>
