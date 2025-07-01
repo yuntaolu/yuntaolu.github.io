@@ -44,21 +44,35 @@
     .navbar-nav a:hover {
       color: #007bff;
     }
+    .back-to-top {
+      color: #666;
+      font-size: 0.9em;
+      border: 1px solid #ddd;
+      padding: 5px 12px;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    .back-to-top:hover {
+      color: #007bff;
+      border-color: #007bff;
+      background-color: #f8f9ff;
+    }
   </style>
 </head>
 <body style="margin: 0;">
-<div class="navbar">
+<div class="navbar" id="top">
   <div class="navbar-content">
-    <a href="#" class="navbar-brand">Yuntao Lu</a>
+    <a href="#top" class="navbar-brand">Yuntao Lu</a>
     <ul class="navbar-nav">
       <li><a href="#about">About</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#experiences">Experiences</a></li>
       <li><a href="#educations">Educations</a></li>
+      <li><a href="#top" class="back-to-top">Back to Top</a></li>
     </ul>
   </div>
 </div>
-<div id="layout-content">
+<div id="layout-content" style="margin: 0 40px;">
 <table class="imgtable">
   <tr>
     <td style="width: 150px; vertical-align: top; padding-right: 20px;">
@@ -82,25 +96,25 @@
 <h2 id="publications">Publications</h2>
 <ul>
 <li>
-  <p> <b>Yuntao Lu</b>, Chen Bai, Yuxuan Zhao, Mingyu Liu, and Bei Yu, 
+  <p><b>Yuntao Lu</b>, Chen Bai, Yuxuan Zhao, Mingyu Liu, and Bei Yu, 
   "DeepVerifier: Learning to Update Test Sequences for Coverage-Guided Verification", <br>
   ACM Transactions on Design Automation of Electronic Systems (TODAES), 2025. 
   <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3721133"> Available here</a>
   </p></li>
 <li>
-  <p> <b>Yuntao Lu</b>, Lei Gong, Chao Wang, Xuehai Zhou, 
+  <p><b>Yuntao Lu</b>, Lei Gong, Chao Wang, Xuehai Zhou, 
   "SparseNN: A Performance-Efficient Accelerator for Large-Scale Sparse Neural Networks", <br>
   International Journal of Parallel Programming (IJPP), 2018. <!-- 46.4 (2018): 648-659. --> 
   <a target="_blank" href="https://link.springer.com/article/10.1007/s10766-017-0528-8">Available here</a>
   </p></li>
 <li>
-  <p> <b>Yuntao Lu</b>, Lei Gong, Chongchong Xu, Fan Sun, Yiwei Zhang, Chao Wang, Xuehai Zhou, 
+  <p><b>Yuntao Lu</b>, Lei Gong, Chongchong Xu, Fan Sun, Yiwei Zhang, Chao Wang, Xuehai Zhou, 
   "A High-performance FPGA Accelerator for Sparse Neural Networks: Work in Progress", <br>
   International Conference on Compilers, Architectures and Synthesis for Embedded Systems Companion (CASES), 2017. <!--, pp. 1-2. 2017. -->
   <a target="_blank" href="https://doi.org/10.1145/3125501.3125510">Available here</a>
   </p></li>
-<li><p> <b>Yuntao Lu</b>, Chao Wang, Lei Hong, Xi Li, Aili Wang and Xuehai Zhou, 
-  "An Overview of Neural Network Accelerators. ", <br>
+<li><p><b>Yuntao Lu</b>, Chao Wang, Lei Hong, Xi Li, Aili Wang and Xuehai Zhou, 
+  "An Overview of Neural Network Accelerators", <br>
   High Performance Computing for Big Data, 2017.
   <a target="_blank" href="https://www.routledge.com/High-PerformanceComputing-for-Big-Data-Methodologies-and-Applications/Wang/p/book/9781498783996">Available here</a>
   </p></li>
@@ -118,7 +132,7 @@
   Projects: Validations and Developments for Optimized AI models and applications on AI-specific chips. 
   </p></li>
 </ul>
-<h2 id="educations>Educations</h2>
+<h2 id="educations">Educations</h2>
 <ul>
 <li><p>
   Aug. 2023 - Present, Ph.D. Candidate in Computer Science and Engineering <br>
